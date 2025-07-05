@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Nome do Projeto:
 Simulador de Implantação de Aplicação
 
 # Descrição:
@@ -28,7 +28,6 @@ Após executar o comando, a janela do "Simulador de Implantação de Aplicação
 A funcionalidade principal é visualizar e registrar um processo de implantação simulado.
 Interface Gráfica: Fornece uma janela com campos para inserir informações sobre a aplicação a ser "implantada", como: Nome da Aplicação, URL do Repositório (de onde o código viria, como o GitHub), nome do Serviço (o processo que roda a aplicação no servidor).
 simulação do Processo: Ao clicar em "Iniciar Implantação", o programa não congela. Ele inicia uma tarefa em segundo plano (threading) que exibe, passo a passo, uma sequência de implantação comum. Parando o serviço atual, puxando a nova versão do código, instalando dependências, rodando migrações de banco de dados e reiniciando o serviço com a nova versão.
-
 Geração de Logs: Esta é uma das partes mais importantes. A ferramenta faz duas coisas com os logs.
 Exibe na Tela: Mostra cada passo em tempo real na área de "Logs da Implantação" dentro da própria janela.
 Salva em Arquivo: Cria um arquivo de log (.log) com data e hora no nome, e o salva na pasta C:\Logs\monitoramento_alertas. Isso é excelente para auditoria e para entender o que aconteceu em cada implantação simulada.
