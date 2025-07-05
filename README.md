@@ -33,4 +33,4 @@ Exibe na Tela: Mostra cada passo em tempo real na área de "Logs da Implantaçã
 Salva em Arquivo: Cria um arquivo de log (.log) com data e hora no nome, e o salva na pasta C:\Logs\monitoramento_alertas. Isso é excelente para auditoria e para entender o que aconteceu em cada implantação simulada.
 
 # Tecnologias Usadas:
-Python
+Linguagem Python
